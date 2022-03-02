@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Origem CSS: Externo, Interno e Inline</title>
+    <style>
+        body { 
+            background-color: aquamarine;          
+        }
+    </style>
+    <link rel="stylesheet" href="css/externo.css"> 
+    <!-- colocar os links de arquivos css no head -->
+</head>
+<!-- CSS no inline tem uma preferência maior sobre as outras formas do qual o css do background foi "chamado", lembrando que não é uma boa prática -->
+<body style="background-color: coral;"> 
+    <h1>E agora?</h1>
+</body>
+
+</html>
